@@ -62,8 +62,14 @@
 
 
 
-  $("#start").on("click", function() { 
+  $("#reset").on("click", function() { 
 
+    var pointTotal = 0;
+    var wins = 0;
+    var losses = 0;
+    $("#wins").text("Wins:   " + wins);
+    $("#losses").text("Losses: " + losses);
+    $("#points").text("You have " + pointTotal + " points");
     startGame();
 
   });
