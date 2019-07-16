@@ -4,8 +4,11 @@ var targetNumber = Math.round(Math.random() * 100);
 
   var pointTotal = 0;
 
-  
   var pointValues = [10, 2, 3, 8];
+
+  var crystalPoint;
+
+  
 
   
   for (var i = 0; i < pointValues.length; i++) {
