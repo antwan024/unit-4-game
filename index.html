@@ -3,6 +3,7 @@
 <head>
   <title>simple crystal game</title>
 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
@@ -11,8 +12,27 @@
   <h1>Number to Guess: <span id="pointGoal"></span></h1>
 
   
-  <div id="crystals">
+  <div id="crystals"></div>
+
+  <div id="points">You have 0 points</div>
+
+  <div id="numOfgames">
+        
+
+        <div id="wins">Wins: 0</div>
+        <div id="losses">Losses:  0</div>
+        
   </div>
+
+
+  
+
+
+
+  <button type="button" class="btn btn-primary " id="start">Play Again?</button>
+
+
+
 
   
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
