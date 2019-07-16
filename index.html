@@ -8,39 +8,85 @@
 
 </head>
 <body>
+    <div class="container">
 
-  <h1>Number to Guess: <span id="pointGoal"></span></h1>
+        <div class="row">
+            <div class="col-lg-12" id="header">
+                <h1>The Crystals Game</h1>
+            </div>
+        </div>
 
-  
-  <div id="crystals"></div>
 
-  <div id="points">You have 0 points</div>
+        <div class="row">
+            <div class="col-lg-12" id="instructions">
+                <p>Rules:</p>
+                <ul>
+                    <li>Each crystal has a value.</li>
+                    <li>You have a set amounts points to try to match.</li>
+                    <li>Click a crystal to accumulate points.</li>
+                    <li>Get to the EXACT total of points without exceeding.</li>
+                    <li>You lose if you go over and win if you get the exact amount.</li>
+                    <li>Have fun!</li>
+                </ul>
+            </div>
+        </div>
 
-  <div id="numOfgames">
+
+        <div class="row">
+            <div class="col-lg-12" id="images">
+                <span id="crystals"></span>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-lg-12" id="pointsToMatch">
+                <h3>Points to Match: <span id="pointGoal"></span></h3>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-lg-12" id="total">
+                <h4>You have: <span id="points">0</span> points</h4>
+            </div>
+        </div>
+
+
+
+
+        <div class="row">
+            <div class="col-lg-12" id="numOfgames">
+                <div id="wins">Wins: 0</div>
+                <div id="losses">Losses:  0</div>
+            </div>
+        </div>
         
 
-        <div id="wins">Wins: 0</div>
-        <div id="losses">Losses:  0</div>
+        <div class="row">
+            <div class="col-lg-12">
+                <button type="button" class="btn btn-primary " id="reset">Reset</button>
+            </div>
+        </div>
+    
+
         
-  </div>
 
-
-  
-
-
-
-  <button type="button" class="btn btn-primary " id="reset">Reset</button>
+        
+        
 
 
 
 
-  
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-  <script type="text/javascript" src="assets/javascript/game.js">
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
 
-  
 
-  </script>
+
+</div>
+
+
 </body>
 </html>

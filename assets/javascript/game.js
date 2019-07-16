@@ -54,7 +54,7 @@
 
     $("#wins").text("Wins:   " + wins);
     $("#losses").text("Losses: " + losses);
-    $("#points").text("You have " + pointTotal + " points");
+    $("#points").text(pointTotal);
 
 
   });
@@ -69,7 +69,7 @@
     var losses = 0;
     $("#wins").text("Wins:   " + wins);
     $("#losses").text("Losses: " + losses);
-    $("#points").text("You have " + pointTotal + " points");
+    $("#points").text(pointTotal);
     startGame();
 
   });
